@@ -1,0 +1,9 @@
+version: '2'
+services:
+  dash:
+    build: .
+    ports:
+      - "8050:8050"
+    volumes:
+      - '.:/stock-ticker-id'
+    command: python app.py

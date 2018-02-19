@@ -26,7 +26,7 @@ def create_app():
 
     app.layout = html.Div([
         html.Div([
-            html.H2('Indonesia Stock Ticker',
+            html.H2('Indonesia Stocks Ticker',
                     style={'display': 'inline',
                         'float': 'left',
                         'font-size': '2.65em',
@@ -48,7 +48,7 @@ def create_app():
             id='stock-ticker-input',
             options=[{'label': s[0], 'value': s[1]}
                     for s in zip(df_symbol.Company, df_symbol.Symbol)],
-            value=['IDX:BBCA', 'IDX:TLK'],
+            value=['IDX:BBCA', 'IDX:TLKM'],
             multi=True
         ),
         html.Div(id='graphs')
