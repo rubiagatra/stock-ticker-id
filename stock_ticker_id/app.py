@@ -10,8 +10,8 @@ import pandas as pd
 from pandas_datareader.data import DataReader
 import time
 
-server = flask.Flask('stock-tickers')
-app = dash.Dash('stock-tickers', server=server, url_base_pathname='/dash/gallery/stock-tickers/', csrf_protect=False)
+server = flask.Flask('stock-tickers-id')
+app = dash.Dash('stock-tickers-id', server=server, url_base_pathname='/', csrf_protect=False)
 server.secret_key = os.environ.get('secret_key', 'secret')
 
 app.scripts.config.serve_locally = False
