@@ -1,0 +1,1 @@
+# Stock Ticker and Stock Prediction for Indonesian Company
