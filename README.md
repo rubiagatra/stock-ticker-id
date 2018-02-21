@@ -1,6 +1,7 @@
 # Stock Ticker and Stock Prediction for Indonesian Company
 
-Stock Ticker ID are notebooks for stock prediction and stock ticker app using [Dash](https://plot.ly/dash) for creating dashboard of Indonesian company
+Stock Ticker ID are notebooks for stock prediction and stock ticker app using [Dash](https://plot.ly/dash) for creating dashboard of Indonesian company.
+I am only using 8 Companies from this [Yahoo Finance](https://finance.yahoo.com/quote/IDX?ltr=1)
 
 ## Preview
 ### stock-prediction
@@ -39,10 +40,8 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 ## Contributing
 
-1. Fork it (<https://github.com/rubiagatra/ner-suara-surabaya/fork>)
+1. Fork it 
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
-The following is a screenshot for the app in this repo:
-
