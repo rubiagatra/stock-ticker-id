@@ -1,6 +1,6 @@
 # Stock Ticker and Stock Prediction for Indonesian Company
 
-Stock Ticker ID are notebooks for stock prediction and stock ticker app using [Dash](https://plot.ly/dash) for creating this dashboard for Indonesian company
+Stock Ticker ID are notebooks for stock prediction and stock ticker app using [Dash](https://plot.ly/dash) for creating dashboard of Indonesian company
 
 ## Preview
 ### stock-prediction
